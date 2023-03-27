@@ -1,0 +1,40 @@
+* {
+	font-style: sans-serif;
+}
+.container {
+	margin: 0 20px;
+}
+
+.card {
+	background-color: #ebe0e0;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	width: 50%;
+	/* posisi di tengah" halaman */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* hover card */
+.card:hover {
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+	/* scale: 1.1;
+	transition: 0.5s; */
+}
+
+h1 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	/* jarak antar baris */
+}
